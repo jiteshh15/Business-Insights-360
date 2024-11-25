@@ -79,25 +79,33 @@ Once the kick-off meeting is complete, and the data engineering team provides th
 
 Before diving into analysis, it's essential to have a clear understanding of the data available. This helps in making informed decisions and identifying the right tools and techniques for analysis.
 Dimension Tables:
+
 •	These tables contain static information such as customer and product details.
+
 o	dim_customer: Includes details about 75 customers spread across 27 markets (e.g., India, USA, Spain), covering 2 types of platforms (Brick & Mortar stores and E-commerce platforms like Amazon and Flipkart), and 3 sales channels (Retailers, Direct, Distributors).
 o	dim_market: Contains information on 27 markets and their regions and sub-zones, such as APAC, EU, and LATAM.
 o	dim_product: Details about product divisions, categories (e.g., Internal HDD, keyboard), and variants.
+
 Fact Tables:
 •	These tables store transactional data such as sales and forecasted quantities.
 o	fact_forecast_monthly: Provides forecasts on customer needs (helping with inventory and customer satisfaction).
 o	fact_sales_monthly: Contains actual sales data, similar to the forecast table, but instead of forecasted quantities, it has sold quantities.
+
 Other Tables:
 •	gdb041: Includes essential data for understanding sales operations across different markets.
 •	gdb056: Includes tables like freight_cost, gross_price, manufacturing_cost, pre_invoice_deductions, and post_invoice_deductions, which provide financial and operational insights.
-Importing Data into Power BI
+
+**Importing Data into Power BI**
+
 Since the data is stored in MySQL, to bring it into Power BI, you'll need to connect Power BI to the MySQL database by entering the database credentials (username, password, etc.) to import the necessary datasets. This allows you to work directly with the data in Power BI to create insights.
 By understanding the dataset, you'll be well-prepared to create dashboards and reports that address business needs and enhance decision-making.
 
 **Data Model**
 
 In data analysis and reporting, data modeling is essential as it serves as the foundation for creating accurate and efficient reports. A strong data model ensures that the visuals you build are based on well-structured, reliable data. Without good data modeling, the performance and functionality of your reports can suffer.
+
 To make sure our reports run smoothly, we follow best practices in data modeling. These practices help ensure data is organized and easy to work with, improving both performance and usability. For this project, we’ve implemented the Snowflake Schema data modeling method, which helps break down data into smaller, more manageable pieces and minimizes redundancy.
+
 By following these practices, we ensure that our reports are optimized and ready to deliver insightful, high-performing visuals.
 
 
@@ -105,8 +113,11 @@ By following these practices, we ensure that our reports are optimized and ready
 **Dashboard Designing**
 
 When building the dashboard, we begin by referencing the mock-ups received as part of the requirements. The team will design each visual and create necessary measures step by step, ensuring that each component serves its purpose.
-Home View
+
+**Home View**
+
 The Home View will feature buttons for easy navigation. Users can click on a specific button to access different areas of the dashboard:
+
 •	Info
 •	Finance View
 •	Sales View
