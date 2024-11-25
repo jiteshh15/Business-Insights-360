@@ -108,6 +108,7 @@ To make sure our reports run smoothly, we follow best practices in data modeling
 
 By following these practices, we ensure that our reports are optimized and ready to deliver insightful, high-performing visuals.
 
+<img width="720" alt="Project_Screenshot2_updated" src="https://github.com/user-attachments/assets/602627aa-4adc-4a9b-8de4-3b7638929889">
 
 
 **Dashboard Designing**
