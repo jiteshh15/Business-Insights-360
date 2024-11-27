@@ -132,8 +132,8 @@ Each button will direct users to its respective detailed view, ensuring they can
 
 **Overall Report**
 
-![Uploading Overall.gif…]()
+![Overall](https://github.com/user-attachments/assets/2705d4d4-28c6-4199-99b1-732dea484525)
 
-**Info**
+**Info Page**
 
-![Uploading Info Page.gif…]()
+![Info Page](https://github.com/user-attachments/assets/0e4b9b52-0e06-46f9-b78a-a0a5e9f35a46)
