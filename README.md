@@ -132,3 +132,8 @@ Each button will direct users to its respective detailed view, ensuring they can
 
 **Overall Report**
 
+![Uploading Overall.gif…]()
+
+**Info**
+
+![Uploading Info Page.gif…]()
