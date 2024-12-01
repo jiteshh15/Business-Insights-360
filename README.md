@@ -163,4 +163,3 @@ Each button will direct users to its respective detailed view, ensuring they can
 ## Executive View
 
 ![Executive](https://github.com/user-attachments/assets/1ae48aea-cb48-4d0d-835a-6ea5e64fce4c)
-and you can check out full Report here: [Report](https://github.com/user-attachments/assets/c9abe649-5320-492d-920c-954b35e95a3f)
